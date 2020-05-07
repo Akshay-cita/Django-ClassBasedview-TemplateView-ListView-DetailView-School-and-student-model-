@@ -7,5 +7,8 @@
   <p>principal:{{school_detail.principal}}</p>
   <p>Location:{{school_detail.location}}</p>
 </div>
-
+<div class="container">
+  <p><a class="btn btn-warning" href="{%url 'basic_app:update' pk=school_detail.pk %}">Update</a></p>
+  
+</div>
 {%endblock%}
